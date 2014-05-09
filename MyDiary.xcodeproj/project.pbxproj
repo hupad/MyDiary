@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68AA4AAB191CEA7100DE7B83 /* TANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AA4AAA191CEA7100DE7B83 /* TANavigationController.m */; };
+		68AA4AAE191CF03100DE7B83 /* TAEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AA4AAD191CF03100DE7B83 /* TAEntryCell.m */; };
 		68AD2D43191ADC6B003BDC5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD2D42191ADC6B003BDC5B /* Foundation.framework */; };
 		68AD2D45191ADC6B003BDC5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD2D44191ADC6B003BDC5B /* CoreGraphics.framework */; };
 		68AD2D47191ADC6B003BDC5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD2D46191ADC6B003BDC5B /* UIKit.framework */; };
@@ -22,6 +24,11 @@
 		68AD2D64191ADC6B003BDC5B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AD2D48191ADC6B003BDC5B /* CoreData.framework */; };
 		68AD2D6C191ADC6B003BDC5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68AD2D6A191ADC6B003BDC5B /* InfoPlist.strings */; };
 		68AD2D6E191ADC6B003BDC5B /* MyDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AD2D6D191ADC6B003BDC5B /* MyDiaryTests.m */; };
+		68AD2D79191ADC9A003BDC5B /* TACoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AD2D78191ADC9A003BDC5B /* TACoreDataStack.m */; };
+		68AD2D7D191AE039003BDC5B /* TADiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AD2D7C191AE039003BDC5B /* TADiaryEntry.m */; };
+		68AD2D7F191AE395003BDC5B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AD2D7E191AE395003BDC5B /* MainStoryboard.storyboard */; };
+		68AD2D82191AE4A2003BDC5B /* TAEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AD2D81191AE4A2003BDC5B /* TAEntryViewController.m */; };
+		68AD2D85191B2341003BDC5B /* TAEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AD2D84191B2341003BDC5B /* TAEntryListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68AA4AA9191CEA7100DE7B83 /* TANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANavigationController.h; sourceTree = "<group>"; };
+		68AA4AAA191CEA7100DE7B83 /* TANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANavigationController.m; sourceTree = "<group>"; };
+		68AA4AAC191CF03100DE7B83 /* TAEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAEntryCell.h; sourceTree = "<group>"; };
+		68AA4AAD191CF03100DE7B83 /* TAEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAEntryCell.m; sourceTree = "<group>"; };
 		68AD2D3F191ADC6B003BDC5B /* MyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AD2D42191ADC6B003BDC5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68AD2D44191ADC6B003BDC5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,15 @@
 		68AD2D69191ADC6B003BDC5B /* MyDiaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDiaryTests-Info.plist"; sourceTree = "<group>"; };
 		68AD2D6B191ADC6B003BDC5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68AD2D6D191ADC6B003BDC5B /* MyDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDiaryTests.m; sourceTree = "<group>"; };
+		68AD2D77191ADC9A003BDC5B /* TACoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACoreDataStack.h; sourceTree = "<group>"; };
+		68AD2D78191ADC9A003BDC5B /* TACoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACoreDataStack.m; sourceTree = "<group>"; };
+		68AD2D7B191AE039003BDC5B /* TADiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TADiaryEntry.h; path = ../TADiaryEntry.h; sourceTree = "<group>"; };
+		68AD2D7C191AE039003BDC5B /* TADiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TADiaryEntry.m; path = ../TADiaryEntry.m; sourceTree = "<group>"; };
+		68AD2D7E191AE395003BDC5B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68AD2D80191AE4A2003BDC5B /* TAEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAEntryViewController.h; sourceTree = "<group>"; };
+		68AD2D81191AE4A2003BDC5B /* TAEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAEntryViewController.m; sourceTree = "<group>"; };
+		68AD2D83191B2341003BDC5B /* TAEntryListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAEntryListTableViewController.h; sourceTree = "<group>"; };
+		68AD2D84191B2341003BDC5B /* TAEntryListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAEntryListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +135,23 @@
 		68AD2D4A191ADC6B003BDC5B /* MyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				68AD2D7E191AE395003BDC5B /* MainStoryboard.storyboard */,
+				68AD2D7A191AE010003BDC5B /* Entity */,
+				68AD2D77191ADC9A003BDC5B /* TACoreDataStack.h */,
+				68AD2D78191ADC9A003BDC5B /* TACoreDataStack.m */,
 				68AD2D53191ADC6B003BDC5B /* TAAppDelegate.h */,
 				68AD2D54191ADC6B003BDC5B /* TAAppDelegate.m */,
 				68AD2D59191ADC6B003BDC5B /* Images.xcassets */,
 				68AD2D56191ADC6B003BDC5B /* MyDiary.xcdatamodeld */,
 				68AD2D4B191ADC6B003BDC5B /* Supporting Files */,
+				68AD2D80191AE4A2003BDC5B /* TAEntryViewController.h */,
+				68AD2D81191AE4A2003BDC5B /* TAEntryViewController.m */,
+				68AD2D83191B2341003BDC5B /* TAEntryListTableViewController.h */,
+				68AD2D84191B2341003BDC5B /* TAEntryListTableViewController.m */,
+				68AA4AA9191CEA7100DE7B83 /* TANavigationController.h */,
+				68AA4AAA191CEA7100DE7B83 /* TANavigationController.m */,
+				68AA4AAC191CF03100DE7B83 /* TAEntryCell.h */,
+				68AA4AAD191CF03100DE7B83 /* TAEntryCell.m */,
 			);
 			path = MyDiary;
 			sourceTree = "<group>";
@@ -151,6 +183,15 @@
 				68AD2D6A191ADC6B003BDC5B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68AD2D7A191AE010003BDC5B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				68AD2D7B191AE039003BDC5B /* TADiaryEntry.h */,
+				68AD2D7C191AE039003BDC5B /* TADiaryEntry.m */,
+			);
+			name = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68AD2D7F191AE395003BDC5B /* MainStoryboard.storyboard in Resources */,
 				68AD2D4F191ADC6B003BDC5B /* InfoPlist.strings in Resources */,
 				68AD2D5A191ADC6B003BDC5B /* Images.xcassets in Resources */,
 			);
@@ -251,6 +293,12 @@
 			files = (
 				68AD2D51191ADC6B003BDC5B /* main.m in Sources */,
 				68AD2D55191ADC6B003BDC5B /* TAAppDelegate.m in Sources */,
+				68AD2D85191B2341003BDC5B /* TAEntryListTableViewController.m in Sources */,
+				68AA4AAE191CF03100DE7B83 /* TAEntryCell.m in Sources */,
+				68AD2D7D191AE039003BDC5B /* TADiaryEntry.m in Sources */,
+				68AA4AAB191CEA7100DE7B83 /* TANavigationController.m in Sources */,
+				68AD2D82191AE4A2003BDC5B /* TAEntryViewController.m in Sources */,
+				68AD2D79191ADC9A003BDC5B /* TACoreDataStack.m in Sources */,
 				68AD2D58191ADC6B003BDC5B /* MyDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +496,7 @@
 				68AD2D73191ADC6B003BDC5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68AD2D74191ADC6B003BDC5B /* Build configuration list for PBXNativeTarget "MyDiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +505,7 @@
 				68AD2D76191ADC6B003BDC5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

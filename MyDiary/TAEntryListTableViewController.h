@@ -1,5 +1,5 @@
 //
-//  TAAppDelegate.h
+//  TAEntryListTableViewController.h
 //  MyDiary
 //
 //  Created by Harish Upadhyayula on 5/7/14.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TACoreDataStack.h"
 
-@interface TAAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface TAEntryListTableViewController : UITableViewController
 
 @end
